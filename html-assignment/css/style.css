@@ -1,3 +1,8 @@
+header { 
+    background-color: #6E4555;
+    
+}
+
 body {
 
     background-color: tomato;
@@ -5,6 +10,7 @@ body {
     padding-top: 2vw;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    font-size: 18px;
 }
 
 
@@ -12,18 +18,24 @@ nav ul li {
     display: inline;
 }
  
-ul {
-    text-align: center;list-style: none; display: block;
-    
+.box-list {
+    list-style: square;
+    list-style-position: inside;
 }
+
 
 img {
     height: auto; width: 500px;
+    box-shadow: 0vh;
+    
 }
 
 footer { 
-    padding-top: 10em;
-
+    padding-top: 0.5em;
+    color: black;
+    background-color: #6E4555;
+    padding-bottom: 0em;
+    margin-bottom: 0em;
 }
 /* make container div purple */
 .purple{ 
@@ -31,4 +43,21 @@ footer {
     color: white;
     -webkit-text-stroke:black 0.3px;
 
+}
+
+p { 
+    margin: 0;
+}
+
+.footernotes{ 
+    padding-top: 1em;
+
+}
+
+.site-title { 
+    color: tomato;
+}
+
+.my-image { 
+    box-shadow: 0px 0px 2px 1px black;
 }
