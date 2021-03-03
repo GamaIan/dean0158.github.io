@@ -57,11 +57,8 @@ html {
 }
 h1 { 
     position: absolute;
-    text-align: center; 
     font-size: 4.3vw;
     color: white;
-    
-
 }
 header img { 
     width: 100%;
@@ -69,18 +66,21 @@ header img {
 }
 
 h2 { 
-    font-size: 2em; 
+    text-align: left;
+    font-size: 3em; 
+    padding: 1em;
+    
 }
 img { 
-    width: 15%; 
+    width: 25%; 
     float: left; 
 }
 p { 
-    font-size: 20px;
+    font-size: 30px;
 }
 nav ul li { 
     display: inline;
-    font-size: 2em;
+    font-size: 3em;
     
 }
 
@@ -95,13 +95,27 @@ nav {
     background-color:#93ece2;
 }
 
+article ul { 
+    text-align: left;
+    font-size: 2em;
+}
 .form { 
     border: solid black 1px;
-    
+    border-radius: 5px;
+    padding: 12px 20px; 
+    width: 100%;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+
 }
 
 article { 
     background-color: #93ece2 ;
     padding-left: 0.5em;
     padding-right: 0.5em;
+}
+
+footer { 
+    text-align: right;
 }
