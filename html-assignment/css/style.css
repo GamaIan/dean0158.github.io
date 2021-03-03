@@ -66,11 +66,8 @@ footer {
 }
 dl dt:nth-child(odd){
     background-color: coral;
-    padding: 4px; 
 }
-p { 
-    margin: 0;
-}
+
 
 .footernotes{ 
     padding-top: 1em;
