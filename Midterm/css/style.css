@@ -67,7 +67,7 @@ header img {
 
 h2 { 
     text-align: left;
-    font-size: 3em; 
+    font-size: 2em; 
     padding: 1em;
     
 }
@@ -76,11 +76,11 @@ img {
     float: left; 
 }
 p { 
-    font-size: 30px;
+    font-size: 1.5em;
 }
 nav ul li { 
     display: inline;
-    font-size: 3em;
+    font-size: 2em;
     
 }
 
@@ -97,14 +97,14 @@ nav {
 
 article ul { 
     text-align: left;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 .form { 
     border: solid black 1px;
-    border-radius: 5px;
-    padding: 12px 20px; 
+    border-radius: 6px;
+    padding: 13px 21px; 
     width: 100%;
-    margin: 8px 0;
+    margin: 9px 0;
     display: inline-block;
     box-sizing: border-box;
 
@@ -118,4 +118,5 @@ article {
 
 footer { 
     text-align: right;
+    font-size: 0.5em;
 }
