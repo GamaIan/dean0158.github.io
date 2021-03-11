@@ -50,13 +50,15 @@ table {
 /* ======end of css reset====== */
 
 html {
-    margin-left: 12vw;
-    margin-right: 12vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
     margin-bottom: 1vw;
     background-color:#aad4cf;
 }
 h1 { 
     position: absolute;
+    padding-left: 4em;
+    padding-top: 1.4em;
     font-size: 4.3vw;
     color: white;
 }
@@ -65,18 +67,12 @@ header img {
     position: relative;
 }
 
-h2 { 
-    text-align: left;
-    font-size: 2em; 
-    padding: 1em;
-    
-}
 img { 
     width: 25%; 
     float: left; 
 }
 p { 
-    font-size: 1.5em;
+    font-size: 1.4em;
 }
 nav ul li { 
     display: inline;
@@ -92,31 +88,71 @@ nav ul li a{
 
 nav { 
     text-align: center;
-    background-color:#93ece2;
+    background-color:#b2ebe4;
+}
+
+nav li:not(:last-child){ 
+    border-right: black solid 1px;
 }
 
 article ul { 
     text-align: left;
     font-size: 1.5em;
+    list-style: square;
+    padding-left: 1em; 
+
+}
+
+article ul li { 
+    line-height: 1em;
+    padding-top: 0.5em;
 }
 .form { 
+    font-size: 1em;
     border: solid black 1px;
     border-radius: 6px;
-    padding: 13px 21px; 
+    padding: 50px 21px; 
     width: 100%;
     margin: 9px 0;
     display: inline-block;
     box-sizing: border-box;
+    
 
 }
 
+.mainheading { 
+    text-align: left;
+    font-size: 2em; 
+    padding: 1em;
+    padding-left: 0em;
+    padding-bottom: 0em;
+    
+}
+
+.facts { 
+    text-align: left;
+    font-size: 2em; 
+    padding: 1em;
+    padding-left: 0em;
+    padding-bottom: 0em;
+    
+}
+
+.contact { 
+    text-align: left;
+    font-size: 2em; 
+    padding: 1em;
+    padding-left: 0em;
+    padding-bottom: 0em;
+    
+}
 article { 
-    background-color: #93ece2 ;
+    background-color: #b2ebe4 ;
     padding-left: 0.5em;
     padding-right: 0.5em;
 }
 
 footer { 
     text-align: right;
-    font-size: 0.5em;
+    font-size: 0.7em;
 }
