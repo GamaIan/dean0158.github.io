@@ -50,10 +50,10 @@ table {
 /* ======end of css reset====== */
 
 html {
-    margin-left: 20vw;
-    margin-right: 20vw;
-    margin-bottom: 1vw;
+    margin-left: 16vw;
+    margin-right: 16vw;
     background-color:#aad4cf;
+    font-family: Arial, Helvetica, sans-serif;
 }
 h1 { 
     position: absolute;
@@ -72,36 +72,42 @@ header img {
 img { 
     width: 25%; 
     float: left; 
+    padding-right: 1em;
 }
 p { 
-    font-size: 1.4em;
+    font-size: 1.4em; 
+    line-height: 30px; 
 }
+
+
+/* ====Nav section==== */
 nav ul li { 
     display: inline;
     font-size: 2em;
     
+    
 }
-
 nav ul li a{ 
     padding-left: 2em;
     padding-right: 2em;
-
-}
-form h2 {
-    font-size: 1.3em;
+    text-decoration: none;
+    color: inherit;
 }
 nav { 
     text-align: center;
-    background-color:#b2ebe4;
+    background-color:#b8dfda;
 }
 
 nav li:not(:last-child){ 
     border-right: black solid 1px;
 }
+/* =====End of Nav section===== */
 
+
+/* =====Start of article section===== */
 article ul { 
     text-align: left;
-    font-size: 1.5em;
+    font-size: 1.4em;
     list-style: disc;
     padding-left: 1em; 
 
@@ -111,11 +117,55 @@ article ul li {
     line-height: 1em;
     padding-top: 0.5em;
 }
+article { 
+    background-color: #b8dfda ;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+/* ====End of article section==== */
+
+
+form h2 {
+    font-size: 1.3em;
+    padding: 1em; 
+    padding-left: 0em;
+}
+footer { 
+    text-align: right;
+    font-size: 0.7em;
+}
+
+/* ========input tags======== */
+input[type=text], select{     
+    width: 100%;  
+    padding: 12px 20px;   
+    margin: 8px 0;   
+    display: inline-block;  
+    border: 1px solid #ccc;   
+    border-radius: 4px;   
+    box-sizing: border-box; 
+}
+/* -----Changes size of Message box----- */
+form input[type=text]:nth-child(6) {
+    padding-bottom: 4em;
+}
+
+.submit input[type=submit]{
+    font-size: 0.75rem;
+    padding: 10px;
+    background-color: #b8dfda;
+    border: solid 1px black;
+  }
+/* ======End of input tags====== */
+
+
+/* ======Class tags====== */
 .form { 
     font-size: 1.2em;
     border: solid black 1px;
     border-radius: 6px;
-    padding: 50px 21px; 
+    padding: 20px 20px; 
     width: 100%;
     margin: 9px 0;
     display: inline-block;
@@ -149,13 +199,10 @@ article ul li {
     padding-bottom: 0em;
     
 }
-article { 
-    background-color: #b2ebe4 ;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-}
 
-footer { 
-    text-align: right;
-    font-size: 0.7em;
+.submit {
+    clear: left;
+    padding-top: 2em;
+    
 }
+/* =======End of Class tags====== */
