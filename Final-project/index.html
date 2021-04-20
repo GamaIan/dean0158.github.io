@@ -142,42 +142,45 @@
             <h1> Contact Us </h1>
             <h2> Send us a message</h2>
             <form> 
-              <label for="fullname"> Your name</label>
+              <label for="fullname"> Full Name</label>
               <input type="text" id="fullname">  
-              <label for="Email"> Your email</label> 
+            </form>
+            
+            <form>
+              <label for="Email">Email</label> 
               <input type="text" id="Email">    
-              <label for="Message"> Your Message</label>
-              <input type="text" id="Message">
-              <input type="submit" value="Send">
+            </form>  
+             
+            <form>
+              <label for="message">Message</label>
+              <textarea name="message" id="message"></textarea>
+            </form> 
+            
+            <form>
+              <input type="button" value="Send">
             </form>
         </div>
 
       
-      
-        <div class="hourstable"> 
-        <table> 
-          <caption> Hours of operation </caption>
-              <thead>
-                <tr>
-                  <th> Days </th>
-                  <th> Hours</th>
-                </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Monday-Friday</td>
-                <td>Saturday-Sunday</td>
-              </tr>
-            </tbody>
-
-            <tbody>
-              <tr>
-                <td>9 am- 6pm</td>
-                <td>Closed</td>
-              </tr>
-            </tbody>
-      </table>
-      </div>
+        
+        <section class="hours-container">
+          <h2>Hours of Operation</h2>
+          <table class="hours-table">
+            <tr>
+              <th>Days</th>
+              <th>Hours</th>
+            </tr>
+            <tr>
+              <td>Monday - Friday</td>
+              <td>9 AM - 6 PM</td>
+            </tr>
+            <tr>
+              <td>Saturday - Sunday</td>
+              <td>Closed</td>
+            </tr>
+          </table>
+        
+        </section>
 
       
       
@@ -191,7 +194,7 @@
       
       <footer> 
         <p> &copy;Copyright Three Star Media, 2020 </p>
-        <p> all images are taken from Unsplash</p>
+        <p> All images are taken from Unsplash</p>
       </footer>
 
  
