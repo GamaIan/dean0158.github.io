@@ -235,10 +235,10 @@ form i {
     color: white;
     background-image: url(../images/vision.jpg);
     background-size:cover;
-    padding-bottom: 40px;
+    padding-bottom: 45px;
 }
 .vision h1 {
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 600;
     padding-bottom: 20px;
     padding-top: 30px;
@@ -252,8 +252,9 @@ form i {
 }
 
 .vision .button{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     padding-left: 30px;
     padding-right: 30px;
     background-color:#222;
@@ -261,4 +262,43 @@ form i {
     margin-left:15px;
     color: white;
     text-decoration: none;
+}
+
+.vision i {
+    padding-left: 15px;
+    font-size: 30px;
+}
+
+
+.team h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.team img{
+    width: 100%;
+}
+
+.team h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.team h3{
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 15px;
+    border-bottom: solid 2px #c78c06;
+}
+
+.team p{
+    font-size: 15px;
+    line-height: 20px;
+    padding-top: 15px;
+}
+
+.team .content {
+    padding: 15px;
+    background-color: #ffe6ac;
+    margin-bottom: 15px;
 }
