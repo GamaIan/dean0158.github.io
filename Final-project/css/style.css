@@ -1,0 +1,264 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end of css reset */
+
+html {
+    margin: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    background-color: #222;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+nav ul{
+    margin: 0px;
+    padding-left: 0px;
+}
+
+nav a{
+   padding-top: 20px;
+   text-decoration: none;
+   color: #c78c06;  
+}
+
+nav ul li {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+nav .active{
+    background-color: #c78c06;
+}
+
+
+form { 
+    text-align: center;
+    
+    
+}
+
+nav form input{
+    height: 20px;
+    width: 400px;
+}
+
+form i { 
+    border: solid 1px #c78c06;
+    padding: 2px;
+    
+    
+}
+
+.active a { 
+    color: #222;
+}
+
+.logo { 
+   background-color: #c78c06;
+   
+}
+
+.Welcome { 
+    color: white;
+    background-image:url(../images/main-banner.jpg);
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.bodycontent { 
+    padding-top: 20px;
+    padding-bottom: 35px;
+    background-color: rgba(0, 0, 0, 0.555);
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.bodycontent h1 { 
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 75px;
+    
+}
+
+.bodycontent p { 
+    font-size:15px ;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+
+}
+
+.bodycontent .button { 
+    font-weight:500;
+    text-decoration: none;
+    background-color: #c78c06;
+    padding: 20px;
+    color:#222;  
+     
+
+}
+
+.bodycontent i { 
+    font-size: 20px;
+}
+    
+.about-us {
+    background-color:#ffe6ac ;
+    background-size: ;
+    padding: 10px;
+    margin: auto;
+}
+
+.about-us h1{
+    padding-top: 20px;
+    font-size: 35px;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+
+.about-us p {
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+
+.about-us img{
+    width: 100%; 
+}
+
+ /* Service */
+
+ .services-container h1{ 
+    font-size: 50px;
+    font-weight: 600;
+    padding-bottom: 15px;
+    padding-top: 20px;
+
+}
+
+
+.services {
+    background-color: #ffe6ac;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+    
+    
+}
+
+.services img{
+    width: 100%;
+}
+
+.services h2{
+    font-size:30px;
+    font-weight: 600;
+    background-color: #ffe6ac;
+    padding-top:20px;
+    padding-left:15px;
+}
+
+.services p{ 
+    background-color: #ffe6ac;
+    padding:15px;
+    line-height: 20px;
+    margin-bottom: 25px;
+    padding-bottom: 30px;
+}
+
+.services .button{
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #222;
+    color: white;
+    padding: 25px;
+    margin-left: 10px;
+}
+
+.vision{
+    color: white;
+    background-image: url(../images/vision.jpg);
+    background-size:cover;
+    padding-bottom: 40px;
+}
+.vision h1 {
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.vision p{
+    padding: 20px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+.vision .button{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color:#222;
+    border: solid 1px #c78c06;
+    margin-left:15px;
+    color: white;
+    text-decoration: none;
+}
