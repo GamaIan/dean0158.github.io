@@ -60,6 +60,7 @@ header{
     padding-left: 10px;
     padding-top: 10px;
     padding-right: 10px;
+    font-size: 16px;
 }
 
 nav ul{
@@ -93,13 +94,14 @@ form {
 }
 
 nav form input{
-    height: 20px;
-    width: 400px;
+    height: 25px;
+    width: 600px;
 }
 
 form i { 
     border: solid 1px #c78c06;
     padding: 2px;
+
     
     
 }
@@ -143,6 +145,7 @@ form i {
     font-size:15px ;
     padding-bottom: 15px;
     margin-bottom: 20px;
+    line-height: 20px;
 
 }
 
@@ -152,12 +155,15 @@ form i {
     background-color: #c78c06;
     padding: 20px;
     color:#222;  
+
      
 
 }
 
 .bodycontent i { 
     font-size: 25px;
+    padding-left:5px;
+
 }
     
 .about-us {
@@ -353,8 +359,9 @@ form i {
     padding:15px
 }
 .hours-container h2 {
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 600;
+    padding-bottom: 15px;
  
     
 }
@@ -397,3 +404,139 @@ footer {
 
 
 
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:760px){
+    
+    .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    }
+    
+    header{
+        color: #222;
+        padding-bottom:100px;
+        padding-left:50px;
+        padding-top:30px;
+    }
+    
+    nav { 
+        padding-top: 30px;
+        padding: 15px;
+        padding-left: 45px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    nav ul li {
+        margin-left: 50px;
+        float: left;
+        margin-top: 30px;
+        font-size: 30px;
+        padding-left: 45px;
+    }
+
+    nav .active {
+        background-color: #c78c06;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        
+    }
+    nav form input { 
+        text-align: left;
+        width: 200px;
+        height: 30px;
+        font-size: 25px;
+    }
+    
+    nav form { 
+        padding-top: 45px;
+        padding-right: 200px;
+    }
+    
+    nav form button { 
+        position: absolute;
+        float: right;
+    }
+
+    nav form i { 
+        font-size: 30px;
+    }
+
+    .logo{
+        padding-top: 30px;
+        background-color: #222;
+        float: left;
+        padding-right: 45px;
+        padding-left: 65px;
+    }
+
+    .logo img { 
+        width:auto;
+        height: 125px;
+    }
+    
+    .Welcome { 
+        color: white;
+        background-image:url(../images/main-banner.jpg);
+        background-size: cover;
+        padding-top: 25px;
+        padding-bottom: 100px;
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+
+    .bodycontent { 
+        padding-top: 1px;
+        padding-bottom: 75px;
+        background-color: rgba(0, 0, 0, 0.555);
+        padding-left: 15px;
+        padding-right: 15px;
+    
+    }
+    
+    .bodycontent h1 { 
+        font-size: 150px;
+        font-weight: 600;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        line-height: 200px;
+        
+    }
+
+    .bodycontent p { 
+        font-size:30px ;
+        margin-bottom: 150px;
+        padding-bottom: 20px;
+        line-height: 50px;
+    
+    }
+
+    .bodycontent .button { 
+        font-weight:500;
+        font-size: 25px;
+        text-decoration: none;
+        background-color: #c78c06;
+        padding: 50px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        color:#222;  
+        
+    
+    }
+
+    .bodycontent i { 
+        font-size: 35px;
+        padding-left:5px;
+    
+    }
