@@ -610,6 +610,8 @@ footer {
 
     .services:nth-child(3) { 
         grid-area: Video;
+        margin-bottom: 0;
+        padding-bottom: 0;
     }
 
     .services:nth-child(4) { 
@@ -628,6 +630,11 @@ footer {
         padding-right: 0;
         margin-left: 0;
 
+    }
+
+    .marginfix { 
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
 
