@@ -276,7 +276,7 @@ form i {
 }
 
 
-.team h1{
+.teamtitle {
     font-size: 40px;
     font-weight: 600;
 }
@@ -587,9 +587,10 @@ footer {
     .services-container {  
         display: grid;
         grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
         grid-gap: 10px;
-        margin: 150px;
+        margin-left: 150px;
+        margin-right: 150px;
         margin-top: 10px;
 
         grid-template-areas: 
@@ -598,10 +599,14 @@ footer {
     }
     .services:nth-child(1) { 
         grid-area: Digital;
+        margin-bottom: auto;
+        padding-bottom: 10px;
     }
 
     .services:nth-child(2) { 
         grid-area: Marketing;
+        margin-bottom: auto;
+        padding-bottom: 10px;
     }
 
     .services:nth-child(2) p{
@@ -610,16 +615,20 @@ footer {
 
     .services:nth-child(3) { 
         grid-area: Video;
-        margin-bottom: 0;
-        padding-bottom: 0;
+        margin-bottom: auto;
+        padding-bottom: 10px;
     }
 
     .services:nth-child(4) { 
         grid-area: Web;
+        margin-bottom: auto;
+        padding-bottom: 10px;
     }
 
     .services:nth-child(5) { 
         grid-area: Print;
+        margin-bottom: auto;
+        padding-bottom: 10px;
     }
 
     .services .button { 
@@ -637,6 +646,80 @@ footer {
         padding-right: 10px;
     }
 
+
+    .vision { 
+        background-position:center;
+        padding-left: 100px;
+        padding-right: 100px;
+    
+    }
+
+    .vision h1 { 
+        padding-top:50px;
+    }
+
+    .vision p { 
+        font-size: 25px;
+    }
+    .teamtitle { 
+        font-size: 50px;
+        font-weight: 600;
+        padding-top: 50px;
+        padding-left: 110px;
+        padding-bottom: 15px;
+    }
+
+    .team { 
+        display:grid; 
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2,1fr);
+        margin-left: 110px;
+        margin-right: 110px;
+        margin-bottom: 110px;
+
+        grid-template-areas: 
+        
+        "John Johncontent"
+        "bobcontent Bob"
+        ;
+    }
+
+    .john { 
+        grid-area: John;
+    }
+
+    .bob { 
+        grid-area: Bob; 
+    }
+
+    .team .content:nth-child(2) { 
+        grid-area: Johncontent;
+    }
+
+    .team .content:nth-child(1){ 
+        grid-area:bobcontent;
+    
+    }
+
+    .content h2 { 
+        font-size: 40px;
+    }
+    .content p { 
+        font-size: 25px;
+        line-height: 30px;
+    }
+    
+    .content h3 { 
+        font-size: 25px;
+    }
+
+    .team .content { 
+        margin:0;
+    }
+
+    
+
+    
 
 
 
