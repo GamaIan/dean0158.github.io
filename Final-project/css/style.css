@@ -429,7 +429,7 @@ footer {
     }
     
     nav { 
-        padding-top: 30px;
+        padding-top: 35px;
         padding: 15px;
         padding-left: 45px;
         margin-left: auto;
@@ -540,3 +540,77 @@ footer {
         padding-left:5px;
     
     }
+
+    .about-us {
+        background-color:#ffe6ac ;
+        background-size: ;
+        padding-left: 100px;
+        padding-right: 200px;
+        margin: auto;
+        padding-bottom: 75px;
+        padding-top: 25px;
+    }
+
+    .about-us img{
+        float: left;
+        height: 50%;
+        width: 50%; 
+    }
+
+
+    .about-us h1{
+        padding-top: 20px;
+        font-size: 50px;
+        padding-bottom: 10px;
+        font-weight: 600;
+        padding-left: 810px;
+    }
+
+    .about-us p {
+        padding-top: 20px;
+        font-size: 20px;
+        line-height: 35px;
+        padding-bottom: 10px;
+        padding-left:810px ;
+    }
+
+    .services-container {  
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(2,1fr);
+
+        grid-template-areas: 
+        "Digital Digital Digital Marketing Marketing Marketing" 
+        "Video Video Web Web Print Print";
+    }
+
+    .services:nth-child(1) { 
+        grid-area: Digital;
+    }
+
+    .services:nth-child(2) { 
+        grid-area: Marketing;
+    }
+
+    .services:nth-child(3) { 
+        grid-area: Video;
+    }
+
+    .services:nth-child(4) { 
+        grid-area: Web;
+    }
+
+    .services:nth-child(5) { 
+        grid-area: Print;
+    }
+
+
+
+
+
+
+}
+
+
+
+
