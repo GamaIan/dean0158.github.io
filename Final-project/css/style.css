@@ -352,7 +352,6 @@ form i {
     font-size: 20px;
     display: block;
     padding: 5px;
-    border: solid 1px #c78c06;
 } 
 
 .hours-container{ 
@@ -718,11 +717,32 @@ footer {
     }
 
     
+    .bottomgrid { 
+        display:grid; 
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        margin-left: 110px;
+        margin-right: 110px;
+        width:100%;
+       
+        grid-template-areas: 
+        "Contact location"
+        "Hours Hours"
+        ;
 
+    }
     
+    .contact { 
+        grid-area: Contact;
+    }
 
+    .hours-container{
+        grid-area: Hours;
+    }
 
-
+    .location { 
+        grid-area: location;
+    }
 
 
 
