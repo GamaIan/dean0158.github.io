@@ -191,7 +191,7 @@ form i {
 
  /* Service */
 
- .services-container h1{ 
+ .ourservices h1{ 
     font-size: 50px;
     font-weight: 600;
     padding-bottom: 15px;
@@ -408,7 +408,7 @@ footer {
 
 
 
-
+/*  Media Queuery  */
 
 
 
@@ -543,53 +543,69 @@ footer {
 
     .about-us {
         background-color:#ffe6ac ;
-        background-size: ;
-        padding-left: 100px;
-        padding-right: 200px;
-        margin: auto;
-        padding-bottom: 75px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 120px;
         padding-top: 25px;
     }
 
     .about-us img{
         float: left;
-        height: 50%;
+        height: auto;
         width: 50%; 
     }
 
 
     .about-us h1{
-        padding-top: 20px;
+        padding-top: 1px;
         font-size: 50px;
-        padding-bottom: 10px;
+        padding-bottom: 1px;
         font-weight: 600;
-        padding-left: 810px;
+        padding-left: 910px;
     }
 
     .about-us p {
         padding-top: 20px;
         font-size: 20px;
-        line-height: 35px;
+        line-height: 30px;
         padding-bottom: 10px;
-        padding-left:810px ;
+        padding-left:910px ;
+        padding-right: 250px;
     }
+
+    
+    .ourservices h1{ 
+        font-size: 50px;
+        font-weight: 600;
+        padding-bottom: 30px;
+        padding-top: 60px;
+        padding-left: 150px;
+    
+    }
+
 
     .services-container {  
         display: grid;
         grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: repeat(2,1fr);
+        grid-template-rows: repeat(3,1fr);
+        grid-gap: 10px;
+        margin: 150px;
+        margin-top: 10px;
 
         grid-template-areas: 
         "Digital Digital Digital Marketing Marketing Marketing" 
         "Video Video Web Web Print Print";
     }
-
     .services:nth-child(1) { 
         grid-area: Digital;
     }
 
     .services:nth-child(2) { 
         grid-area: Marketing;
+    }
+
+    .services:nth-child(2) p{
+        padding-bottom: 50px;    
     }
 
     .services:nth-child(3) { 
@@ -603,6 +619,17 @@ footer {
     .services:nth-child(5) { 
         grid-area: Print;
     }
+
+    .services .button { 
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+
+    }
+
 
 
 
